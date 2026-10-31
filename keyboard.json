@@ -1,0 +1,35 @@
+{
+    "manufacturer": "dvtsellios",
+    "keyboard_name": "binarymp",
+    "maintainer": "dvtsellios",
+    "bootloader": "rp2040",
+    "width": 4,
+    "height": 1,
+    
+    
+    "matrix_pins": {
+        "direct": [
+            ["GP1, GP2, GP3, GP4"]
+        ]
+    },
+    "processor": "RP2040",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0000",
+        "vid": "0xFEED"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+               {"label": "0", "x":0, "y":0},
+               {"label": "1", "x":1, "y":0},
+               {"label":"space", "x":2, "y":0},
+               {"label":"delete", "x":3, "y":0}
+
+
+
+            ]
+        }
+    }
+}
